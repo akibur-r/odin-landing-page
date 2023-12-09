@@ -303,3 +303,24 @@ body {
 .back-to-top:hover > .no-bg {
   display: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #5e5b5b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c5a100;
+  border-radius: 1vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd100;
+}
