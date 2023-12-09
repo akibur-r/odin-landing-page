@@ -60,7 +60,7 @@ body {
   height: 10vh;
 }
 .section {
-  height: 99dvh;
+  height: 99.5dvh;
   position: relative;
   padding: 0px;
   margin: 0;
@@ -110,6 +110,7 @@ body {
   box-sizing: border-box;
   border-radius: 0.5vw;
   border: none;
+  cursor: pointer;
 }
 
 #home > div > img {
@@ -201,13 +202,11 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  height: 98dvh;
+  height: 100dvh;
 }
 
 #about > .container {
   flex: 9;
-  padding: 8px;
-  width: 100%;
 
   display: flex;
   justify-content: center;
@@ -246,12 +245,23 @@ body {
 
 #about > .container > .main > .button {
   flex: 1;
+  background-color: transparent;
+  color: #ffd100;
+  font-size: 1rem;
   border: 2px solid #ffd100;
   border-radius: 1vw;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+
+  transition-duration: 150ms;
+}
+
+#about > .container > .main > .button:hover {
+  background-color: #ffd100;
+  color: #202020;
 }
 
 #about > .footer {
@@ -266,20 +276,30 @@ body {
 
 .back-to-top {
   position: fixed;
-  color: red;
   right: 0;
   bottom: 0;
-  width: 100px;
-  height: 20px;
   margin-right: 8px;
   margin-bottom: 8px;
-  padding: 5px;
-  text-align: center;
-  background-color: #333533;
-  border: 1px solid #d6d6d6;
-  border-radius: 10px;
 }
-.back-to-top > a {
-  text-decoration: none;
-  color: yellow;
+
+.back-to-top > .with-bg,
+.no-bg {
+  border: 2px solid #202020;
+  border-radius: 1vw;
+  width: 3vw;
+  transition-duration: 5000ms;
+}
+
+.back-to-top > .no-bg {
+  display: block;
+}
+.back-to-top > .with-bg {
+  display: none;
+}
+
+.back-to-top:hover > .with-bg {
+  display: block;
+}
+.back-to-top:hover > .no-bg {
+  display: none;
 }
