@@ -66,14 +66,14 @@ body {
   margin: 0;
 }
 
-#home {
+#div-one {
   background-color: #333533;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#home > div {
+#div-one > div {
   flex: 1;
   padding: 100px;
   justify-content: flex-start;
@@ -81,25 +81,25 @@ body {
   color: white;
 }
 
-#home > .info {
+#div-one > .info {
   display: flex;
   flex-direction: column;
 }
 
-#home > .info > h1 {
+#div-one > .info > h1 {
   font-size: 3rem;
   flex: 1;
   color: #ffd100;
 }
 
-#home > .info > p {
+#div-one > .info > p {
   font-size: 1.5rem;
   text-align: justify;
   flex: 3;
   color: #fff;
 }
 
-#home > .info > button {
+#div-one > .info > button {
   flex: 1;
   font-size: 1rem;
   color: #202020;
@@ -113,13 +113,13 @@ body {
   cursor: pointer;
 }
 
-#home > div > img {
+#div-one > div > img {
   box-sizing: content-box;
   border-radius: 10px;
   width: 100%;
 }
 
-#resources {
+#div-two {
   background-color: #202020;
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@ body {
   margin: 0;
 }
 
-#resources > h1 {
+#div-two > h1 {
   flex: 1;
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@ body {
   font-size: 3rem;
 }
 
-#resources > .container {
+#div-two > .container {
   flex: 4;
   background-color: #ffd100;
 
@@ -147,7 +147,7 @@ body {
   padding: 5vw;
 }
 
-#resources > .container > .sub-container {
+#div-two > .container > .sub-container {
   flex: 1;
   box-sizing: border-box;
   width: 10vw;
@@ -160,7 +160,7 @@ body {
   padding: 1%;
 }
 
-#resources > .container > .sub-container > .image {
+#div-two > .container > .sub-container > .image {
   flex: 5;
   box-sizing: border-box;
   width: 100%;
@@ -168,20 +168,20 @@ body {
   border-radius: 1vw;
 }
 
-#resources > .container > .sub-container > .caption {
+#div-two > .container > .sub-container > .caption {
   flex: 2;
   box-sizing: border-box;
   width: 100%;
   color: #202020;
 }
 
-#forum {
+#div-three {
   background-color: #333533;
   display: flex;
   flex-direction: column;
 }
 
-#forum > .quote {
+#div-three > .quote {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,12 +191,12 @@ body {
   padding: 10vw;
 }
 
-#forum > .quote > .credit {
+#div-three > .quote > .credit {
   font-style: normal;
   color: white;
 }
 
-#about {
+#div-four {
   background-color: #202020;
   display: flex;
   flex-direction: column;
@@ -205,7 +205,7 @@ body {
   height: 100dvh;
 }
 
-#about > .container {
+#div-four > .container {
   flex: 9;
 
   display: flex;
@@ -213,7 +213,7 @@ body {
   align-items: center;
 }
 
-#about > .container > .main {
+#div-four > .container > .main {
   width: 80%;
   background-color: #333533;
   box-sizing: border-box;
@@ -225,7 +225,7 @@ body {
   flex-direction: row;
 }
 
-#about > .container > .main > .content {
+#div-four > .container > .main > .content {
   flex: 5;
 
   display: flex;
@@ -234,16 +234,16 @@ body {
   color: #ffd100;
 }
 
-#about > .container > .main > .content > .main {
+#div-four > .container > .main > .content > .main {
   font-size: 1.5rem;
 }
 
-#about > .container > .main > .content > .sub {
+#div-four > .container > .main > .content > .sub {
   font-size: 1rem;
   opacity: 0.8;
 }
 
-#about > .container > .main > .button {
+#div-four > .container > .main > .button {
   flex: 1;
   background-color: transparent;
   color: #ffd100;
@@ -259,12 +259,12 @@ body {
   transition-duration: 150ms;
 }
 
-#about > .container > .main > .button:hover {
+#div-four > .container > .main > .button:hover {
   background-color: #ffd100;
   color: #202020;
 }
 
-#about > .footer {
+#div-four > .footer {
   flex: 1;
   display: flex;
   justify-content: center;
